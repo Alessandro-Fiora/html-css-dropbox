@@ -278,6 +278,23 @@ main .band {
 
 /* FAQ */
 
-.faq hr {
-  width: 100%;
+.faq {
+  padding: 100px 0;
+}
+
+.faq .question-container {
+  display: flex;
+  justify-content: space-between;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  padding: 30px 0;
+}
+
+.faq .question-container:first-of-type {
+  border-top: 1px solid black;
+  margin-top: 30px;
+}
+
+.faq .question-container:last-of-type {
+  border-bottom: 1px solid black;
 }
