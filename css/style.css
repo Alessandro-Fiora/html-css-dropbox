@@ -141,6 +141,11 @@ li {
 
 /* MAIN */
 
+main hr {
+  width: 20%;
+  margin: 30px 0;
+}
+
 main .container {
   width: 800px;
 }
@@ -219,11 +224,37 @@ main .companies {
 }
 
 .companies .big-sq {
+  display: flex;
+  flex-wrap: wrap;
+
   width: 30%;
   aspect-ratio: 1/1;
   flex-grow: 1;
 
   /* debug */
-  background-color: azure;
+  background-color: red;
   border: 1px dashed black;
+}
+
+.companies .sml-sq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+
+  width: 50%;
+  aspect-ratio: 1/1;
+  padding: 20px;
+}
+
+.companies .middle-sq {
+  display: block;
+  padding: 30px;
+
+  /* debug */
+  background-color: blue;
+}
+
+.companies .middle-sq img {
+  width: 50%;
 }
