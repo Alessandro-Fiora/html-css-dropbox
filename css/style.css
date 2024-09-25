@@ -1,10 +1,30 @@
+/* ROOT */
+
+:root {
+  --primary-color: hsl(207.6deg 51.02% 80.78%);
+}
+
 /* # RESET */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
 
 /* UTILS */
 
@@ -13,4 +33,47 @@
   padding: 0 10px;
   width: 1000px;
   max-width: 100%;
+}
+
+/* PAGE HEADER */
+
+.page-header {
+  background-color: var(--primary-color);
+}
+
+.page-header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+}
+
+.page-header .nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.page-header .link-list {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.page-header .link-item {
+  display: inline-block;
+}
+
+/* HERO */
+
+.hero-lower {
+  display: flex;
+}
+
+.hero .img-container {
+  flex-basis: 50%;
+  flex-grow: 1;
+}
+
+.hero-column {
+  flex-basis: 40%;
 }
