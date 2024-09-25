@@ -82,6 +82,11 @@ img {
 
 /* HERO */
 
+.page-header h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
 .hero-lower {
   display: flex;
 }
@@ -92,5 +97,14 @@ img {
 }
 
 .hero-column {
-  flex-basis: 40%;
+  flex-basis: 30%;
+}
+
+.hero-column .btn {
+  margin: 20px 0;
+}
+
+.hero .arrow {
+  font-size: 3rem;
+  margin-top: 50px;
 }
