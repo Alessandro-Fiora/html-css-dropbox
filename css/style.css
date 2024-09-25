@@ -298,3 +298,27 @@ main .band {
 .faq .question-container:last-of-type {
   border-bottom: 1px solid black;
 }
+
+/* FOOTER */
+
+.page-footer {
+  color: white;
+  background-color: black;
+}
+.page-footer .footer-upper {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 80px 0;
+}
+
+.page-footer .link-list {
+  line-height: 2rem;
+  list-style-type: none;
+
+  margin-top: 20px;
+}
+
+.footer-lower .language-selection {
+  padding: 50px 0;
+}
