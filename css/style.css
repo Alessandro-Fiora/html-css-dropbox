@@ -33,7 +33,7 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+  width: 1080px;
   max-width: 100%;
 }
 
@@ -43,6 +43,7 @@ img {
   border: 1px solid var(--accent-color);
 
   padding: 5px 10px;
+  margin: 0 20px;
 }
 
 /* PAGE HEADER */
@@ -77,10 +78,22 @@ img {
   font-size: 0.8rem;
   color: #686868;
 
-  margin: 0 20px;
+  margin-left: 20px;
 }
 
 /* HERO */
+
+.hero-section {
+  position: relative;
+  height: 550px;
+}
+
+.hero-section .container {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translate(-50%);
+}
 
 .page-header h1 {
   font-size: 4rem;
