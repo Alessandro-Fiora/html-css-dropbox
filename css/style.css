@@ -258,3 +258,26 @@ main .companies {
 .companies .middle-sq img {
   width: 50%;
 }
+
+main .band {
+  /* debug */
+  background-color: aquamarine;
+}
+
+.freetrial {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 6rem 0;
+}
+
+.freetrial > h2 {
+  flex-basis: 50%;
+}
+
+/* FAQ */
+
+.faq hr {
+  width: 100%;
+}
