@@ -32,6 +32,14 @@ li {
   list-style-position: inside;
 }
 
+p {
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 /* UTILS */
 
 .container {
@@ -56,7 +64,7 @@ li {
 .page-header {
   background-color: var(--primary-color);
   padding-top: 70px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .page-header > nav {
@@ -153,13 +161,12 @@ main .container {
 /* PLAN SELECTION SECTION */
 
 .plan-selection-header {
-  /* debug */
-  background-color: red;
+  padding: 50px 0;
 }
 
-.plan-selection {
-  /* debug */
-  background-color: green;
+.plan-selection .sub-choice {
+  font-size: 0.8rem;
+  margin-top: 30px;
 }
 
 /* CARD */
