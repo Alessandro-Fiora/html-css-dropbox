@@ -141,6 +141,10 @@ li {
 
 /* MAIN */
 
+main .container {
+  width: 800px;
+}
+
 /* PLAN SELECTION SECTION */
 
 .plan-selection-header {
@@ -178,4 +182,15 @@ li {
 
 .partner-section {
   display: flex;
+}
+
+.partner-img-container {
+  flex-basis: 60%;
+}
+
+.partner-text-container {
+  flex-basis: 30%;
+  flex-grow: 1;
+
+  padding: 30px;
 }
