@@ -148,11 +148,13 @@ main .container {
 /* PLAN SELECTION SECTION */
 
 .plan-selection-header {
+  /* debug */
   background-color: red;
 }
 
 .plan-selection {
-  color: green;
+  /* debug */
+  background-color: green;
 }
 
 /* CARD */
@@ -162,16 +164,16 @@ main .container {
   justify-content: space-between;
 }
 
-.footer-card-main {
+.plan-selection .footer-card-main {
   display: flex;
 }
 
-.card {
+.plan-selection .card {
   /* debug */
   background-color: lightblue;
 }
 
-.card .card-header {
+.plan-selection .card .card-header {
   border: 1px solid grey;
 
   /* debug */
@@ -180,7 +182,7 @@ main .container {
 
 /* PARTNER SECTION */
 
-.partner-section {
+.partner {
   display: flex;
 }
 
@@ -193,4 +195,35 @@ main .container {
   flex-grow: 1;
 
   padding: 30px;
+}
+
+/* DROPBOX BUSINESS */
+
+.dropbox-business .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  gap: 1rem;
+}
+
+.dropbox-business .card {
+  flex-basis: 30%;
+  flex-grow: 1;
+}
+
+/* COMPANIES */
+
+main .companies {
+  display: flex;
+}
+
+.companies .big-sq {
+  width: 30%;
+  aspect-ratio: 1/1;
+  flex-grow: 1;
+
+  /* debug */
+  background-color: azure;
+  border: 1px dashed black;
 }
