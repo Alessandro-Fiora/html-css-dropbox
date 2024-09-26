@@ -252,6 +252,7 @@ main .container {
 .card li {
   margin: 10px 0;
   text-indent: -7px;
+  padding-left: 15px;
 }
 
 .card .btn {
@@ -453,4 +454,16 @@ main .band {
 
 .footer-lower .language-selection {
   padding: 50px 0;
+}
+
+.page-footer hr {
+  width: 10%;
+}
+
+.page-footer li {
+  font-size: 0.8rem;
+}
+
+.page-footer .footer-lower {
+  filter: opacity(50%);
 }
