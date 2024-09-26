@@ -211,17 +211,25 @@ main .container {
 
 /* DROPBOX BUSINESS */
 
+.dropbox-business {
+  margin-bottom: 150px;
+}
+
 .dropbox-business .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .dropbox-business .card {
   flex-basis: 30%;
   flex-grow: 1;
+}
+
+.dropbox-business .bottom-text {
+  margin: 150px 0 50px 0;
 }
 
 /* COMPANIES */
@@ -234,24 +242,43 @@ main .companies {
   display: flex;
   flex-wrap: wrap;
 
-  width: 30%;
-  aspect-ratio: 1/1;
-  flex-grow: 1;
-
-  /* debug */
-  background-color: red;
-  border: 1px dashed black;
+  width: calc(100% / 3);
+  aspect-ratio: 1;
 }
 
 .companies .sml-sq {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
 
   width: 50%;
-  aspect-ratio: 1/1;
-  padding: 20px;
+  aspect-ratio: 1;
+  padding: 50px;
+}
+
+.companies .first {
+  background-color: hsl(111.43deg 38.89% 71.76%);
+}
+.companies .second {
+  background-color: hsl(336.4deg 84.76% 20.59%);
+}
+.companies .third {
+  background-color: hsl(198.63deg 85.59% 43.53%);
+}
+.companies .fourth {
+  background-color: hsl(0deg 98.25% 55.1%);
+}
+.companies .fifth {
+  background-color: hsl(351.31deg 100% 41.96%);
+}
+.companies .sixth {
+  background-color: hsl(207.6deg 51.02% 80.78%);
+}
+.companies .seventh {
+  background-color: hsl(228.1deg 81.69% 27.84%);
+}
+.companies .eighth {
+  background-color: hsl(48.93deg 99.04% 59.22%);
 }
 
 .companies svg * {
@@ -262,8 +289,7 @@ main .companies {
   display: block;
   padding: 30px;
 
-  /* debug */
-  background-color: blue;
+  background-color: hsl(0deg 0% 96.08%);
 }
 
 .companies .middle-sq img {
