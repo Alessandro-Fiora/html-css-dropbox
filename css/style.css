@@ -254,6 +254,10 @@ main .companies {
   padding: 20px;
 }
 
+.companies svg * {
+  fill: white;
+}
+
 .companies .middle-sq {
   display: block;
   padding: 30px;
