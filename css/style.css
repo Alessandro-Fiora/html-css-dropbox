@@ -168,12 +168,34 @@ main .container {
   padding: 50px 0;
 }
 
+.plan-selection label {
+  margin-right: 20px;
+}
+
 .plan-selection .sub-choice {
   font-size: 0.8rem;
   margin-top: 30px;
 }
 
 /* CARD */
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card .price {
+  font-weight: bold;
+}
+
+.card h5 {
+  font-size: 0.8rem;
+}
+
+.card h6 {
+  font-weight: lighter;
+  margin-top: 10px;
+}
 
 .plan-selection-main {
   display: flex;
@@ -201,6 +223,10 @@ main .container {
 
 .plan-selection .card-main-section {
   padding: 30px 20px;
+}
+
+.card ul {
+  margin: 20px 0;
 }
 
 .card li {
