@@ -59,6 +59,20 @@ h2 {
   padding: 5px 10px;
 }
 
+.btn-secondary {
+  background-color: transparent;
+  color: black;
+  border: 1px solid currentColor;
+}
+
+.btn-plain {
+  background-color: white;
+  color: black;
+  border: none;
+
+  padding: 10px 20px;
+}
+
 /* PAGE HEADER */
 
 .page-header {
@@ -149,6 +163,11 @@ h2 {
 
 /* MAIN */
 
+main a {
+  text-decoration: underline;
+  color: blue;
+}
+
 main hr {
   width: 20%;
   margin: 30px 0;
@@ -205,6 +224,7 @@ main .container {
 
 .plan-selection .footer-card-main {
   display: flex;
+  justify-content: space-between;
 }
 
 .plan-selection .card {
@@ -245,6 +265,14 @@ main .container {
 
 .subs-bonus-list2 i {
   color: var(--accent-color);
+}
+
+.footer-card .column-big {
+  flex-basis: 60%;
+}
+
+.footer-card .column-big p {
+  margin: 30px 0 10px 0;
 }
 
 /* PARTNER SECTION */
