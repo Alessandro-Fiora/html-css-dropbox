@@ -222,7 +222,7 @@ main .container {
 }
 
 .plan-selection .card-main-section {
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 
 .card ul {
@@ -231,10 +231,20 @@ main .container {
 
 .card li {
   margin: 10px 0;
+  text-indent: -7px;
+}
+
+.card .btn {
+  margin: 20px 0;
+  font-size: 0.7rem;
 }
 
 .plan-selection .footer-card {
   margin-top: 35px;
+}
+
+.subs-bonus-list2 i {
+  color: var(--accent-color);
 }
 
 /* PARTNER SECTION */
